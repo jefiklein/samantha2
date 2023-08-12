@@ -188,63 +188,33 @@
     
 
 	
-    <section class="section-grey">
-        
-        
-        <div class="container">
-
-            <div class="row">
-            
-                
-                <div class="col-md-6">
-
-                    <div class="youtube-video-wrapper">
-
-                        
-                        <div class="popup-gallery">
-
-                            
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OzLYmwAr5Ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                        </div>
-                        
-
-                    </div>
-
+   <section class="section-grey">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="youtube-video-wrapper">
+                    <div class="popup-gallery" id="videoContainer"></div>
                 </div>
-               
-                
-                
-                <div class="col-md-6">
-
-                	<h3>Se liga no depoimento da Stefani! Mentorada que hoje vende mensalmente mais de 100 k!</h3>
-
-                	<p></p>
-                    
-                    <ul class="features-list">
-
-                        <li><i class="fa fa-check lyla"></i> Conte com um plano de estudos</li>
-
-                        <li><i class="fa fa-check lyla"></i> Tenha não só um certificado, mas também experiência prática</li>
-
-                        <li><i class="fa fa-check lyla"></i> Acesso a grupo exclusivo para alunos</li>
-
-                        <li><i class="fa fa-check lyla"></i> Saiba como buscar e encontrar seus primeiros jobs</li>
-
-                    </ul>
-
-                    <a href="https://api.whatsapp.com/send?phone=555492345353" class="btn btn-lg btn-blue">QUERO ME MATRICULAR</a>
-                    
-                </div>
-                
-            
             </div>
-           
-    
+            <div class="col-md-6">
+                <h3>Se liga no depoimento da Stefani! Mentorada que hoje vende mensalmente mais de 100 k!</h3>
+                <p></p>
+                <ul class="features-list">
+                    <li><i class="fa fa-check lyla"></i> Conte com um plano de estudos</li>
+                    <li><i class="fa fa-check lyla"></i> Tenha não só um certificado, mas também experiência prática</li>
+                    <li><i class="fa fa-check lyla"></i> Acesso a grupo exclusivo para alunos</li>
+                    <li><i class="fa fa-check lyla"></i> Saiba como buscar e encontrar seus primeiros jobs</li>
+                </ul>
+                <a href="https://api.whatsapp.com/send?phone=555492345353" class="btn btn-lg btn-blue">QUERO ME MATRICULAR</a>
+            </div>
         </div>
-        
-    
-    </section>                
+    </div>
+</section>
+
+<script>
+    const videoContainer = document.getElementById('videoContainer');
+    videoContainer.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/OzLYmwAr5Ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+</script>           
 
   	
   	<section class="section-dark" id="services">
