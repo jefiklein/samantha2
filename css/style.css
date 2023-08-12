@@ -572,11 +572,11 @@ ul.footer_social li a i:hover {
 /* ========================================================== */
 
 .home-section {
-	background: #008aff; /* For browsers that do not support gradients */
-  	background: -webkit-linear-gradient(135deg, black 0%, #ee1141 100%); /* For Safari 5.1 to 6.0 */
-  	background: -o-linear-gradient(bottom right, #000000, #ee1141); /* For Opera 11.1 to 12.0 */
-  	background: -moz-linear-gradient(bottom right, #000000, #ee1141); /* For Firefox 3.6 to 15 */
-  	background: linear-gradient(to 135deg, #000000 0%, #ee1141 100%); /* Standard syntax */
+   	background-color: #FADADA; /* Cor rosa opaca em formato hexadecimal */
+  	background: -webkit-linear-gradient(135deg, black 0%, #FADADA 100%); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(bottom right, #000000, #FADADA); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(bottom right, #000000, #FADADA); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to 135deg, #000000 0%, #FADADA 100%); /* Standard syntax */
 	background-size: cover;
 	width: 100%;
 	position: relative;
